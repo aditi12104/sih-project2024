@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+/* header */
+#header{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: rgb(206, 61, 130);
+    border-bottom: 1px solid white;
+}
+#fakeheader{
+    height: 10%;
+    width: 100%;
+}
+/* linking other sections in navbar */
+#header a{
+    height: 60% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: white;
+    background-color:rgb(206, 61, 130) ;
+    text-decoration: none;
+    margin: 0px 7px;
+}
+#header a:hover{
+    border: 1px white solid;
+    background-color: rgb(108, 23, 64);
+
+}
+#sitename{
+    width: 110px;
+}
+#box1{
+    width: 170px;
+}
+#box2{
+    width: 160px;
+}
+#box3{
+    width: 80px;
+}
+#box4{
+    width: 160px;
+}
+#box5{
+    width: 100px;
+}
+/* login part */
+#login{
+    height: 60%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: end;
+    color: white;
+    font-size: x-large;
+}
+#login:hover{
+    border: 1px white solid;
+    background-color: rgb(108, 23, 64);
+}
+#login p{
+    padding: 5px;
+}
+/* tagline */
+#tagline{
+    margin-top: 30px;
+    height: 500px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+#logo{
+    height: 530px;
+    width: 720px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* our services */
+#ourservices{
+    height: 100px;
+}
+#ourservices h1{
+    margin-top: 45px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(206, 61, 130)
+}
+#ourservices p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(81, 90, 98);
+    font-size: x-large;
+}
+/* diet services */
+#page1{
+    height: 500px;
+    display: flex;
+}
+#page2{
+    height: 500px;
+    display: flex;
+}
+#page3{
+    height: 500px;
+    display: flex;
+}
+#page4{
+    height: 500px;
+    display: flex;
+}
+#page1left{
+    width: 50%;
+    background-color: rgb(206, 61, 130);
+    color: white;
+}
+#page1left h1{
+    font-size: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#page1left p{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 20px;
+}
+#page1right{
+    width: 50%;
+    background-size: cover;
+}
+#page2left{
+    width: 50%;
+    background-size: cover;
+}
+#page2right{
+    width: 50%;
+    color: white;
+    background-color: rgb(206, 61, 130);
+}
+#page2right h1{
+    font-size: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#page2right p{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 20px;
+}
+#page3left{
+    width: 50%;
+    background-color: rgb(206, 61, 130);
+    color: white;
+}
+#page3left h1{
+    font-size: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#page3left p{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 20px;
+}
+#page3right{
+    width: 50%;
+    background-size: cover;
+}
+#page4left{
+    width: 50%;
+    background-size: cover;
+}
+#page4right{
+    width: 50%;
+    background-color: rgb(206, 61, 130);
+    color: white ;
+}
+#page4right h1{
+    font-size: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#page4right p{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 20px;
+}
